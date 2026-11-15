@@ -2,24 +2,31 @@
 
 Port Scanner simples em Python usando sockets e threads.
 
+## O que faz
+
+Escaneia um intervalo de portas em um IP ou domínio e mostra quais estão abertas.
+
 ## Como usar
 
-```bash
-python scanner.py
+`python scanner.py`
 
-## Exemplo
+## Exemplo de uso
 
-Digite o alvo (IP ou domínio) e o intervalo de portas.
-Digite o IP ou domínio: scanme.nmap.org
-Porta inicial: 20
-Porta final: 80
-```
+Digite o IP ou domínio: `scanme.nmap.org`  
+Porta inicial: `20`  
+Porta final: `80`
+
+Saída esperada:
+
+[+] Porta 22 aberta
+[+] Porta 80 aberta
 
 ## Tecnologias
+
 - Python
-- Socket
-- Concurrent.futures
+- socket
+- concurrent.futures
 
 ## Aviso
 
-Use apenas em redes e sistemas que você tem permissão para testar.
+Use apenas em redes e sistemas que você tem autorização para testar.
